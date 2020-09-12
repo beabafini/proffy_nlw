@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  aoj75-proffy-server:
+    image: aoj75-proffy-server
+    build: .
+    ports: 
+      - 3333:3333
