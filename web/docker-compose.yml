@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-  angularv10:
+  aoj75-proffy-web:
     image: aoj75-proffy-web
     build: .
     ports: 
