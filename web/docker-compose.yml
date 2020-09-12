@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  angularv10:
+    image: aoj75-proffy-web
+    build: .
+    ports: 
+      - 8081:80
